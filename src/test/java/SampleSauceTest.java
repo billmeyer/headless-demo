@@ -18,8 +18,8 @@ public class SampleSauceTest
 
         DesiredCapabilities caps = DesiredCapabilities.firefox();
         caps.setCapability("platform", "linux");
-        caps.setCapability("browser", "firefox");
-        caps.setCapability("version", "latest-2");
+        caps.setCapability("browser", "chrome");
+        caps.setCapability("version", "latest");
 
         WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 
