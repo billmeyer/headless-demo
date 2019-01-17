@@ -16,7 +16,7 @@ public class SampleSauceTest
     throws Exception
     {
 
-        DesiredCapabilities caps = DesiredCapabilities.firefox();
+        DesiredCapabilities caps = DesiredCapabilities.chrome();
         caps.setCapability("platform", "linux");
         caps.setCapability("browser", "chrome");
         caps.setCapability("version", "latest");
